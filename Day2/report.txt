@@ -1,0 +1,47 @@
+Comprehensive S3 Bucket Audit - 2025-09-14T08:45:21.988916
+================================================================================
+
+SUMMARY (name | region | size(GB) | versioning | dept | last_accessed)
+prod-data | us-west-2 | 0.0 GB | True | unknown | 
+dev-app-logs | us-east-1 | 0.0 GB | False | unknown | 
+backup | eu-central-1 | 0.0 GB | True | unknown | 
+audit-logs | ap-southeast-1 | 0.0 GB | True | unknown | 
+test-results | us-west-1 | 0.0 GB | False | unknown | 
+old-backups | us-east-2 | 0.0 GB | True | unknown | 
+staging-resources | eu-west-1 | 0.0 GB | False | unknown | 
+app-analytics | ap-northeast-1 | 0.0 GB | True | unknown | 
+raw-data | us-west-2 | 0.0 GB | False | unknown | 
+compliance-data | ca-central-1 | 0.0 GB | True | unknown | 
+
+BUCKETS > 80GB AND UNUSED >= 90 days
+None
+
+COST BY REGION
+us-west-2 : $0.0
+us-east-1 : $0.0
+eu-central-1 : $0.0
+ap-southeast-1 : $0.0
+us-west-1 : $0.0
+us-east-2 : $0.0
+eu-west-1 : $0.0
+ap-northeast-1 : $0.0
+ca-central-1 : $0.0
+
+COST BY REGION+DEPARTMENT
+us-west-2/unknown : $0.0
+us-east-1/unknown : $0.0
+eu-central-1/unknown : $0.0
+ap-southeast-1/unknown : $0.0
+us-west-1/unknown : $0.0
+us-east-2/unknown : $0.0
+eu-west-1/unknown : $0.0
+ap-northeast-1/unknown : $0.0
+ca-central-1/unknown : $0.0
+
+CLEANUP RECOMMENDATIONS (size>50 GB)
+
+DELETION QUEUE (size>100 & unused>=20 days)
+
+ARCHIVAL SUGGESTIONS (Move to Glacier)
+
+FINAL DELETION LIST
